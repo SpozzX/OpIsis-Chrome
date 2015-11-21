@@ -1,0 +1,29 @@
+{
+    "name": "Fast Report #OpIsis by SpozzX",
+    "version": "0.2",
+    "manifest_version": 2,
+    "description": "Fast Report #OpIsis by SpozzX - c.france22@laposte.net",
+    "browser_action": {
+        "default_title": "Fast Report #OpIsis",
+        "default_icon": "icon.png"
+    },
+    
+    "icons": { 
+        "19": "icon.png",
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+
+    },
+	
+	"options_page": "options.html",
+    "permissions": [
+    "tabs", "https://www.facebook.com/*","https://twitter.com/*", "storage",
+    "contextMenus",
+    "unlimitedStorage"
+	]
+
+}
